@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de cadastro de clientes</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Sistema de cadastro de clientes</h1>
+        <p>Cadastre e visualize seus clientes de forma simples.</p>
+    </header>
+
+    <main>
+        <section class="card">
+            <div class="form-group">
+                <label for="cadInput">Nome do cliente</label>
+                <input 
+                    type="text" 
+                    name="name" 
+                    id="cadInput" 
+                    placeholder="Insira o nome do cliente"
+                >
+            </div>
+
+            <button id="cadButton" type="button">Cadastrar</button>
+
+            <div class="list-area">
+                <h2>Clientes cadastrados</h2>
+                <div id="lista"></div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
