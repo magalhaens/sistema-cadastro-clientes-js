@@ -46,3 +46,8 @@ client-registration-js/
 ├── script/
 │   └── main.js
 └── README.md
+```
+## Imagem do projeto
+
+<img width="1920" height="636" alt="image" src="https://github.com/user-attachments/assets/a8969e16-c9fa-4743-bd30-f95ccf7cabf1" />
+
